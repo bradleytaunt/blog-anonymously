@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blog Anonymously</title>
+    <meta name="description" content="Some very basic instructions on how to blog anonymously (not fool-proof by any means)">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        section{
+            margin: 0 auto;
+            max-width: 800px;
+            padding: 0 1rem;
+        }
+        ol ul {
+            margin-top: 0.5rem;
+        }
+        li {
+            margin-bottom: 1rem;
+        }
+        footer {
+            margin-bottom: 4rem;
+        }
+    </style>
+</head>
+<body>
+    <header style="background:pink;">
+        <section>
+            <img style="margin: 2rem auto 0;" src="/computer.svg" alt="Computer Graphic">
+            <h1 style="padding-bottom:2rem;">Blog Anonymously</h1>
+        </section>
+    </header>
+    <main>
+        <section>
+            <blockquote>
+                <p><strong>This is not fool-proof by any means.</strong> This is merely a good starting point for casual bloggers who wish to keep their identities hidden from the general public. If you are:</p>
+                <ul>
+                    <li>worried for your safety</li>
+                    <li>trying to avoid malicious groups / attackers</li>
+                    <li>fearful of government persecution</li>
+                </ul>
+                <p>then please look into <a href="https://tcij.org/">The Centre for Investigative Journalism</a> or contact a security specialist for help.</p>
+            </blockquote>
+            <h2>Required Hardware</h2>
+            <ol>
+                <li><strong>Burner Laptop</strong>
+                    <ul>
+                        <li>You don't need a high-end laptop, since most of your work will only take place in a browser. Snagging a cheap or used device is a good option. (Chromebooks that allow USB booting are a solid option as well)</li>
+                        <li><i>Bonus Points</i>: purchase this burner with cash (preferably through a local marketplace like craigslist, etc.) No credit card = no paper trail.</li>
+                    </ul>
+                </li>
+                <li><strong>USB Flash Drive (8GB+)</strong>
+                    <ul>
+                        <li>Any will do. Larger storage is only really useful if you wish to use <i>persistence</i> (more on that below).</li>
+                    </ul>
+                </li>
+            </ol>
+        </section>
+        <section>
+            <h2>Required Software</h2>
+            <ol>
+                <li><strong>Tails OS</strong>
+                    <ul>
+                        <li>Simply follow the <a href="https://tails.boum.org/install/index.en.html">install instructions</a> to get Tails OS setup properly on your USB flash drive. (Instructions might look more daunting than they truly are)</li>
+                    </ul>
+                </li>
+            </ol>
+        </section>
+        <section>
+            <hr>
+        </section>
+        <section>
+            <h2>Instructions</h2>
+            <ol>
+                <li>Boot into Tails OS via the USB flash drive on your burner laptop</li>
+                <li>Connect to a Tor circuit (top menu bar for quick access)</li>
+                <li>Using the Tor browser, navigate to <a href="">ProtonMail</a> or <a href="">Tutanota</a> and setup a new, free account. Make the email address completely random with no association to yourself.</li>
+                <li>Navigate to <a href="https://wordpress.com">WordPress.com</a> and setup a free account with that new email address.</li>
+                <li>Setup your new blog and start writing!</li>
+            </ol>
+        </section>
+        <section>
+            <hr>
+        </section>
+        <section>
+            <h2>Important &amp; Helpful Notes</h2>
+            <ol>
+                <li>Never use a custom domain name - these require some of your personal information when being registered. Even with whois privacy protection, certain law enforcement can demand for these credentials.</li>
+                <li>Feel free to use a VPN, though Tor is more than enough for your needs.</li>
+                <li>Whenever you boot Tails OS, it will load with a fresh install. To keep files on the USB even when shutdown, look into using <a href="https://tails.boum.org/doc/first_steps/persistence/index.en.html">Encrypted Persistent Storage </a>. Please note: <i>this is not recommended</i> for obvious security risks.</li>
+                <li>Run your articles through multiple translation converters. Edit minor mistakes afterwards. This avoids engines and tools picking up on your writing style.</li>
+                <li>Always backup your articles. The safest bet is to use <a href="https://archive.org/">archive.org</a></li>
+                <li>Don't expect to collect revenue with your blog. It is extremely difficult to accept payment without some form of tracking to your personal information. If anything, maybe allow your users to donate to a charity you would like to support.</li>
+                <li>WordPress is the suggested blog platform but there are others to choose from:
+                    <ul>
+                        <li><a href="">Github Pages</a></li>
+                        <li><a href="">Blogger</a></li>
+                        <li><a href="">Tumblr</a></li>
+                    </ul>
+                </li>
+                <li>Try your best to avoid publishing articles on your home or work network. Make a trip to the local coffee shop during busy hours and post it then.</li>
+                <li>Randomly select different times to publish articles. Avoid creating a trackable pattern.</li>
+                <li>Never work on anything related to your blog unless using the burner laptop and Tails OS. This might seem simple, but one little slip-up is all it takes.</li>
+            </ol>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <hr>
+            <small>You can improve this content by opening a <a href="https://github.com">ticket on the Github repo</a>.</small>
+        </section>
+    </footer>
+</body>
+</html>
